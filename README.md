@@ -1,2 +1,18 @@
 # flow
-A workflow command tool for Devlopment department
+flow是一个开发团队工作流工具，一方面可以简化开发人员步骤，另一方面可以规范开发流程。
+
+# 模块
+## flow setup
+主要包括同时克隆多个项目克隆，项目初始化设置，自动创建新分支
+
+## flow update
+多个项目同时rebase，保持与远程代码同步
+
+## flow push
+检查本地代码状态（代码是否修改、修改是否提交），推送分支代码
+
+## flow cleanup
+检查本地代码状态（代码是否修改、修改是否提交、分支是否推送、分支是否被合并），删除本地项目，清楚分支信息
+
+# 目标
+linux, windows通用，而且根据各公司开发流程不同能够灵活修改
